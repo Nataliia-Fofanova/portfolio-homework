@@ -1,0 +1,137 @@
+body{
+    width: 100%;
+    
+}
+
+/*.logo{
+//    width: 960px;
+//    height: 120px;
+//    background-image: url(img/logo.png)
+}*/
+
+.menu{
+    width: auto;
+    background: #999;
+    padding: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    border-radius: 30%;
+}
+.menu a:link{
+    color: #000;
+}
+.menu a:hover{
+    background: #888;
+    color: #222;
+}
+.portfolio{
+    background: lightblue;
+}
+.portfolio h3, p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.portfolio img{
+    padding-left: 110px;
+}
+
+.about{
+    background: #F34723;
+    width: 100%;
+}
+.about img{
+    border-radius: 25px; 
+    border: 3px white dotted;
+    width: 120px;
+    height: 180px;
+}
+.about h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: #222;
+    padding-top: 15px;
+}
+.columns{
+    width: 100%;
+}
+.columns:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.one-third{
+    float: left;
+    width: 23%;
+}
+.two-third{
+    float: left;
+    width: 75%;
+}
+.education table, th, tr, td{
+    border: 1px dotted #222;
+}
+.education caption, th{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.aboutme{
+    background: #F34723;
+}
+.aboutme li{
+    color: #fff;
+    list-style: none;
+}
+.aboutme{
+    columns: 3;
+}
+.contacts{
+    background: #FBEC5D	;
+        text-align: center;
+
+}
+.contacts p{
+    padding-left: 15px;
+    display: inline-block;
+}
+.contacts a{
+    text-decoration: none;
+}
+
+.menudown{
+    margin: 0;
+    width: auto;
+    background: #999;
+}
+.menudown li{
+    display: inline-block;
+}
+.menudown a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px dotted #222;
+}
+.menudown a:link{
+    color: #000;
+}
+.menudown a:hover{
+    background: #888;
+    color: #fff;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: #FFFDD0;
+    background: #999;
+}
